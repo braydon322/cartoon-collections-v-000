@@ -18,9 +18,12 @@ def long_planeteer_calls(calls)# code an argument here
   new_array = []
 
   calls.find do |call|
-    true if call.length > 4
+    new_array << call if call.length > 4
   end
-  false
+  if new_array = []
+    false
+  else
+    true
 
   #
   # while i < calls.length
@@ -34,7 +37,7 @@ def long_planeteer_calls(calls)# code an argument here
   #
   # new_array.include?("true") ? true : false
   #
-  # 
+  #
 end
 
 def find_the_cheese(cheese)# code an argument here
