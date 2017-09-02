@@ -20,7 +20,7 @@ def long_planeteer_calls(calls)# code an argument here
   calls.find do |call|
     new_array << call if call.length > 4
   end
-  if new_array = []
+  if new_array == []
     false
   else
     true
