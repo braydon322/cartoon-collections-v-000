@@ -25,20 +25,6 @@ def long_planeteer_calls(calls)# code an argument here
   else
     true
   end
-
-  #
-  # while i < calls.length
-  #   if calls[i].length > 4
-  #     new_array.push << "true"
-  #   else
-  #     new_array.push << "false"
-  #   end
-  #   i += 1
-  # end
-  #
-  # new_array.include?("true") ? true : false
-  #
-  #
 end
 
 def find_the_cheese(cheese)# code an argument here
