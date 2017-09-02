@@ -24,6 +24,7 @@ def long_planeteer_calls(calls)# code an argument here
     false
   else
     true
+  end
 
   #
   # while i < calls.length
